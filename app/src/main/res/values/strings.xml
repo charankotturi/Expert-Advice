@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SalesDashboard</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fab_content_add">conten_add</string>
+</resources>

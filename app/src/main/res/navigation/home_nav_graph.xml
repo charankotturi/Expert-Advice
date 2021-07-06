@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_nav_graph"
+    app:startDestination="@id/contentFragment">
+
+    <fragment
+        android:id="@+id/contentFragment"
+        android:name="com.sales.dashboard.ui.fragments.home.ContentFragment"
+        android:label="fragment_content"
+        tools:layout="@layout/fragment_content" >
+        <action
+            android:id="@+id/action_contentFragment_to_stockFragment"
+            app:destination="@id/stockFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_contentFragment_to_addContentFragment"
+            app:destination="@id/addContentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/stockFragment"
+        android:name="com.sales.dashboard.ui.fragments.home.StockFragment"
+        android:label="fragment_stock"
+        tools:layout="@layout/fragment_stock" >
+        <action
+            android:id="@+id/action_stockFragment_to_addContentFragment"
+            app:destination="@id/addContentFragment" />
+        <action
+            android:id="@+id/action_stockFragment_to_contentFragment"
+            app:destination="@id/contentFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <dialog
+        android:id="@+id/addContentFragment"
+        android:name="com.sales.dashboard.AddContentFragment"
+        android:label="fragment_add_content_list_dialog"
+        tools:layout="@layout/fragment_add_content_list_dialog" />
+</navigation>

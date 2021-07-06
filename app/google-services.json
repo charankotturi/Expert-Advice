@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "397836475853",
+    "firebase_url": "https://sales-project-cd6bf-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "sales-project-cd6bf",
+    "storage_bucket": "sales-project-cd6bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397836475853:android:a5678edf593b1c93d97884",
+        "android_client_info": {
+          "package_name": "com.sales.dashboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "397836475853-kfikmleqv66m2n9dc7s7qeko3bpb9p0n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sales.dashboard",
+            "certificate_hash": "007e26ca584cf3f22bc7e298882fe2063d036f75"
+          }
+        },
+        {
+          "client_id": "397836475853-r6k3vspq6psv83pr2cp9p59rsl59rkjv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDewQv7YHYXCmLUzcqXFizXXe9ghDJLBao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "397836475853-r6k3vspq6psv83pr2cp9p59rsl59rkjv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
